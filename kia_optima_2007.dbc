@@ -53,8 +53,6 @@ BO_ 790 NEW_MSG_3: 8 XXX
  SG_ RPM_maybe : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ VEHICLE_SPEED : 55|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 608 undefined: 8 XXX
-
 BO_ 809 NEW_MSG_4: 8 XXX
  SG_ GAS_PEDAL_maybe : 55|8@0+ (1,0) [0|255] "" XXX
  SG_ BRAKE_SWITCH_or_LIGHT_related : 33|2@0+ (1,0) [0|255] "" XXX
