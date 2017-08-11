@@ -51,6 +51,7 @@ BO_ 640 NEW_MSG_2: 8 XXX
 
 BO_ 790 NEW_MSG_3: 8 XXX
  SG_ RPM_maybe : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ VEHICLE_SPEED : 55|8@0+ (1,0) [0|255] "" XXX
 
 
 
