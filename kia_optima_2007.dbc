@@ -64,6 +64,7 @@ BO_ 809 NEW_MSG_4: 8 XXX
 BO_ 608 NEW_MSG_5: 8 XXX
  SG_ ENGINE_LOAD_maybe : 15|8@0+ (1,0) [0|255] "" XXX
  SG_ ANOTHER_ENGINE_LOAD_maybe : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ CRUISE_CONTROL_related : 26|1@0+ (1,0) [0|1] "" XXX
 
 
 
