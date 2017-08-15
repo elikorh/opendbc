@@ -61,6 +61,10 @@ BO_ 809 NEW_MSG_4: 8 XXX
  SG_ CRUISE_CONTROL_RELATED : 30|1@0+ (1,0) [0|3] "" XXX
  SG_ GAS_PEDAL_maybe : 55|8@0+ (1,0) [0|255] "" XXX
 
+BO_ 608 NEW_MSG_5: 8 XXX
+ SG_ ENGINE_LOAD_maybe : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ ANOTHER_ENGINE_LOAD_maybe : 23|8@0+ (1,0) [0|255] "" XXX
+
 
 
 
