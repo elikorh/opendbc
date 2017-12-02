@@ -58,7 +58,7 @@ BO_ 640 NEW_MSG_3: 8 XXX
  SG_ TRANSMISSION_TEMP_maybe : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ ANOTHER_ENGINE_LOAD_maybe : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ ENGINE_LOAD_maybe : 47|8@0+ (1,0) [0|255] "" XXX
- SG_ RPM_maybe : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ RPM_maybe : 39|8@0+ (20,0) [0|3500] "" XXX
 
 BO_ 672 NEW_MSG_4: 8 XXX
 
@@ -88,4 +88,5 @@ BO_ 1088 NEW_MSG_8: 8 XXX
 
 CM_ SG_ 608 CRUISE_LAMP "This is the enabled, disabled status";
 CM_ SG_ 608 ENGINE_TORQUE_TARGET "This also closely corresponds to the first half of the throttle";
+CM_ SG_ 640 RPM_maybe "This scaling may be incorrect";
 CM_ SG_ 790 ENGINE_TORQUE_2 "This could also be rpm";
