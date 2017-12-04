@@ -51,8 +51,8 @@ BO_ 608 NEW_MSG_2: 8 XXX
  SG_ CRUISE_CONTROL_ENABLE : 25|1@0+ (1,0) [0|1] "" XXX
  SG_ CRUISE_LAMP : 26|1@0+ (1,0) [0|1] "" XXX
  SG_ ENGINE_TORQUE_MIN : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ ENGINE_TORQUE_TARGET : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ ENGINE_TORQUE : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ ENGINE_TORQUE_TARGET : 23|8@0+ (1,0) [0|255] "Also follows the first half of the throttle" XXX
 
 BO_ 640 NEW_MSG_3: 8 XXX
  SG_ TRANSMISSION_TEMP_maybe : 31|8@0+ (1,0) [0|255] "" XXX
@@ -77,9 +77,13 @@ BO_ 809 NEW_MSG_6: 8 XXX
 BO_ 1349 NEW_MSG_7: 8 XXX
  SG_ THROTTLE_RELATED : 56|3@1+ (1,0) [0|7] "" XXX
  SG_ THROTTLE_POSITION_FIRST_HALF : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 1087 NEW_MSG_1: 8 XXX
  SG_ MAYBE_TORQUE : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ COUNTER_CHECKSUM_MAYBE : 47|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 1088 NEW_MSG_8: 8 XXX
 
@@ -90,3 +94,4 @@ CM_ SG_ 608 CRUISE_LAMP "This is the enabled, disabled status";
 CM_ SG_ 608 ENGINE_TORQUE_TARGET "This also closely corresponds to the first half of the throttle";
 CM_ SG_ 640 RPM_maybe "This scaling may be incorrect";
 CM_ SG_ 790 ENGINE_TORQUE_2 "This could also be rpm";
+CM_ SG_ 1087 COUNTER_CHECKSUM_MAYBE "It is kind of related to speed";
